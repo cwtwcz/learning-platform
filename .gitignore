@@ -24,9 +24,15 @@ dist-ssr
 *.sw?
 
 src/data/course_structure.json
+
+# Public directories - keep folders but ignore contents except .gitkeep
 public/videos/*
+!public/videos/.gitkeep
 public/webinars/*
+!public/webinars/.gitkeep
 public/additional/*
+!public/additional/.gitkeep
+
 node_modules/*
 
 .env
