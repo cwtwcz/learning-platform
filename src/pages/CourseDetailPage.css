@@ -1,0 +1,260 @@
+/* Mobile-first design */
+.course-detail-page {
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+
+.course-header {
+  background: var(--gradient);
+  padding: 2rem 1rem;
+  color: white;
+}
+
+.course-header h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.course-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.course-overview {
+  margin-top: 2rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--text);
+}
+
+.weeks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.week-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.week-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1.25rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  gap: 1rem;
+}
+
+.week-card-header:hover {
+  background: rgba(99, 102, 241, 0.05);
+}
+
+.week-header-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.week-card h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+.week-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.stat svg {
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+.expand-button {
+  background: none;
+  border: none;
+  color: var(--primary);
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+
+.expand-button:hover {
+  transform: scale(1.1);
+}
+
+.week-description {
+  padding: 0 1.25rem 1.25rem 1.25rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-size: 0.9375rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.lessons-list {
+  padding: 0.5rem;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.lesson-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.lesson-item:hover {
+  background: var(--surface-light);
+  border-color: var(--primary);
+  transform: translateX(4px);
+}
+
+.lesson-icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  background: rgba(99, 102, 241, 0.1);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+}
+
+.lesson-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.lesson-info h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.625rem;
+  line-height: 1.3;
+}
+
+.lesson-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+}
+
+.lesson-meta span {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.lesson-meta svg {
+  flex-shrink: 0;
+}
+
+/* Webinar item styling - similar to lesson but with distinct color */
+.lesson-item.webinar-item {
+  border-color: rgba(139, 92, 246, 0.2);
+  background: rgba(139, 92, 246, 0.02);
+}
+
+.lesson-item.webinar-item:hover {
+  background: rgba(139, 92, 246, 0.08);
+  border-color: var(--secondary);
+}
+
+.lesson-icon.webinar-icon {
+  background: rgba(139, 92, 246, 0.1);
+  color: var(--secondary);
+}
+
+/* Tablet and up */
+@media (min-width: 768px) {
+  .course-header {
+    padding: 3rem 2rem;
+  }
+
+  .course-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .course-description {
+    font-size: 1.125rem;
+  }
+
+  .container {
+    padding: 0 2rem;
+  }
+
+  .week-card h3 {
+    font-size: 1.25rem;
+  }
+
+  .lesson-item {
+    padding: 1.25rem;
+  }
+
+  .lesson-info h4 {
+    font-size: 1.125rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .course-overview {
+    margin-top: 3rem;
+  }
+
+  .weeks-list {
+    gap: 1.5rem;
+  }
+
+  .week-card-header {
+    padding: 1.5rem;
+  }
+
+  .week-description {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+  }
+
+  .lessons-list {
+    padding: 1rem;
+  }
+}
