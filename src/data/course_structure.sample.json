@@ -1,0 +1,470 @@
+{
+  "course": {
+    "name": "Introduction to Web Development",
+    "description": "A comprehensive course covering the fundamentals of modern web development, including HTML, CSS, JavaScript, and React. Build real-world projects and learn industry best practices.",
+    "weeks": [
+      {
+        "name": "Week 1 (HTML & CSS Fundamentals)",
+        "description": "Start your web development journey by learning the building blocks of the web. Master HTML structure and CSS styling to create beautiful, responsive web pages.",
+        "lessons": [
+          {
+            "name": "HTML Basics and Semantic Markup",
+            "description": "Learn the fundamentals of HTML including document structure, semantic elements, forms, and accessibility best practices. Build a solid foundation for creating well-structured web pages.",
+            "duration": "00:42:30",
+            "chapters": [
+              {
+                "name": "Section 1. Introduction to HTML",
+                "duration": "00:18:00",
+                "videos": [
+                  {
+                    "name": "What is HTML? Structure and Syntax",
+                    "duration": "00:10:00",
+                    "video_url": "videos/001-what-is-html.webm",
+                    "subtitle_url": "videos/001-what-is-html.srt",
+                    "additional_materials": [
+                      {
+                        "name": "HTML Cheat Sheet",
+                        "description": "Quick reference guide for HTML elements",
+                        "url": "additional/html-cheat-sheet.pdf",
+                        "type": "pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Common HTML Elements and Attributes",
+                    "duration": "00:08:00",
+                    "video_url": "videos/002-html-elements.webm",
+                    "subtitle_url": "videos/002-html-elements.srt",
+                    "additional_materials": []
+                  }
+                ]
+              },
+              {
+                "name": "Section 2. Semantic HTML and Forms",
+                "duration": "00:24:30",
+                "videos": [
+                  {
+                    "name": "Semantic Elements for Better Structure",
+                    "duration": "00:12:00",
+                    "video_url": "videos/003-semantic-html.webm",
+                    "subtitle_url": "videos/003-semantic-html.srt",
+                    "additional_materials": [
+                      {
+                        "name": "Semantic HTML Examples",
+                        "description": "Visual guide to semantic elements",
+                        "url": "additional/semantic-html-examples.png",
+                        "type": "image"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Building Forms and Input Types",
+                    "duration": "00:12:30",
+                    "video_url": "videos/004-html-forms.webm",
+                    "subtitle_url": "videos/004-html-forms.srt",
+                    "additional_materials": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "CSS Fundamentals and Layout",
+            "description": "Master CSS selectors, the box model, positioning, and modern layout techniques including Flexbox and Grid. Create beautiful, responsive designs.",
+            "duration": "00:55:15",
+            "chapters": [
+              {
+                "name": "Section 1. CSS Basics",
+                "duration": "00:22:00",
+                "videos": [
+                  {
+                    "name": "CSS Syntax and Selectors",
+                    "duration": "00:11:00",
+                    "video_url": "videos/005-css-basics.webm",
+                    "subtitle_url": "videos/005-css-basics.srt",
+                    "additional_materials": []
+                  },
+                  {
+                    "name": "The Box Model and Display Properties",
+                    "duration": "00:11:00",
+                    "video_url": "videos/006-box-model.webm",
+                    "subtitle_url": "videos/006-box-model.srt",
+                    "additional_materials": [
+                      {
+                        "name": "Box Model Interactive Demo",
+                        "description": "Interactive visualization",
+                        "url": "additional/box-model-demo.mp4",
+                        "type": "video"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Section 2. Modern Layout Techniques",
+                "duration": "00:33:15",
+                "videos": [
+                  {
+                    "name": "Flexbox for One-Dimensional Layouts",
+                    "duration": "00:16:00",
+                    "video_url": "videos/007-flexbox.webm",
+                    "subtitle_url": "videos/007-flexbox.srt",
+                    "additional_materials": [
+                      {
+                        "name": "Flexbox Playground",
+                        "description": "Practice exercises",
+                        "url": "additional/flexbox-exercises.html",
+                        "type": "html"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "CSS Grid for Complex Layouts",
+                    "duration": "00:17:15",
+                    "video_url": "videos/008-css-grid.webm",
+                    "subtitle_url": "videos/008-css-grid.srt",
+                    "additional_materials": []
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "webinars": [
+          {
+            "name": "Week 1 Q&A and Project Review",
+            "description": "Live session covering common questions about HTML and CSS, reviewing student projects, and discussing best practices.",
+            "duration": "01:15:00",
+            "video_url": "webinars/week1-qa-session.webm",
+            "subtitle_url": "webinars/week1-qa-session.srt",
+            "additional_materials": [
+              {
+                "name": "Week 1 Project Template",
+                "description": "Starter files for the week 1 project",
+                "url": "additional/week1-project-template.zip",
+                "type": "archive"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Week 2 (JavaScript Fundamentals)",
+        "description": "Dive into JavaScript to add interactivity to your web pages. Learn programming fundamentals, DOM manipulation, and asynchronous programming.",
+        "lessons": [
+          {
+            "name": "JavaScript Basics and Control Flow",
+            "description": "Get started with JavaScript by learning variables, data types, operators, and control structures. Write your first interactive programs.",
+            "duration": "00:48:45",
+            "chapters": [
+              {
+                "name": "Section 1. Variables and Data Types",
+                "duration": "00:25:00",
+                "videos": [
+                  {
+                    "name": "Introduction to JavaScript",
+                    "duration": "00:08:00",
+                    "video_url": "videos/009-intro-to-javascript.webm",
+                    "subtitle_url": "videos/009-intro-to-javascript.srt",
+                    "additional_materials": []
+                  },
+                  {
+                    "name": "Variables: let, const, and var",
+                    "duration": "00:09:00",
+                    "video_url": "videos/010-variables.webm",
+                    "subtitle_url": "videos/010-variables.srt",
+                    "additional_materials": [
+                      {
+                        "name": "Variable Scope Diagram",
+                        "description": "Visual guide to variable scoping",
+                        "url": "additional/variable-scope.png",
+                        "type": "image"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Data Types and Type Conversion",
+                    "duration": "00:08:00",
+                    "video_url": "videos/011-data-types.webm",
+                    "subtitle_url": "videos/011-data-types.srt",
+                    "additional_materials": []
+                  }
+                ]
+              },
+              {
+                "name": "Section 2. Control Flow and Functions",
+                "duration": "00:23:45",
+                "videos": [
+                  {
+                    "name": "Conditionals and Logical Operators",
+                    "duration": "00:10:00",
+                    "video_url": "videos/012-conditionals.webm",
+                    "subtitle_url": "videos/012-conditionals.srt",
+                    "additional_materials": []
+                  },
+                  {
+                    "name": "Loops: for, while, and iteration",
+                    "duration": "00:08:45",
+                    "video_url": "videos/013-loops.webm",
+                    "subtitle_url": "videos/013-loops.srt",
+                    "additional_materials": []
+                  },
+                  {
+                    "name": "Functions and Arrow Functions",
+                    "duration": "00:05:00",
+                    "video_url": "videos/014-functions.webm",
+                    "subtitle_url": "videos/014-functions.srt",
+                    "additional_materials": [
+                      {
+                        "name": "Function Examples",
+                        "description": "Common function patterns",
+                        "url": "additional/function-examples.js",
+                        "type": "code"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "DOM Manipulation and Events",
+            "description": "Learn how to interact with HTML elements using JavaScript. Master event handling, dynamic content updates, and creating interactive user experiences.",
+            "duration": "00:51:20",
+            "chapters": [
+              {
+                "name": "Section 1. Working with the DOM",
+                "duration": "00:28:00",
+                "videos": [
+                  {
+                    "name": "Understanding the Document Object Model",
+                    "duration": "00:10:00",
+                    "video_url": "videos/015-understanding-dom.webm",
+                    "subtitle_url": "videos/015-understanding-dom.srt",
+                    "additional_materials": []
+                  },
+                  {
+                    "name": "Selecting and Modifying Elements",
+                    "duration": "00:12:00",
+                    "video_url": "videos/016-selecting-elements.webm",
+                    "subtitle_url": "videos/016-selecting-elements.srt",
+                    "additional_materials": []
+                  },
+                  {
+                    "name": "Creating and Removing Elements",
+                    "duration": "00:06:00",
+                    "video_url": "videos/017-creating-elements.webm",
+                    "subtitle_url": "videos/017-creating-elements.srt",
+                    "additional_materials": []
+                  }
+                ]
+              },
+              {
+                "name": "Section 2. Event Handling",
+                "duration": "00:23:20",
+                "videos": [
+                  {
+                    "name": "Event Listeners and Event Types",
+                    "duration": "00:11:00",
+                    "video_url": "videos/018-event-listeners.webm",
+                    "subtitle_url": "videos/018-event-listeners.srt",
+                    "additional_materials": [
+                      {
+                        "name": "Event Reference Guide",
+                        "description": "Complete list of DOM events",
+                        "url": "additional/event-reference.pdf",
+                        "type": "pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Event Bubbling and Delegation",
+                    "duration": "00:12:20",
+                    "video_url": "videos/019-event-bubbling.webm",
+                    "subtitle_url": "videos/019-event-bubbling.srt",
+                    "additional_materials": []
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "webinars": [
+          {
+            "name": "Week 2 Live Coding Session",
+            "description": "Build a complete interactive web application from scratch using HTML, CSS, and JavaScript. Follow along and ask questions in real-time.",
+            "duration": "01:30:00",
+            "video_url": "webinars/week2-live-coding.webm",
+            "subtitle_url": "webinars/week2-live-coding.srt",
+            "additional_materials": [
+              {
+                "name": "Completed Project Files",
+                "description": "Final code from the live session",
+                "url": "additional/week2-completed-project.zip",
+                "type": "archive"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Week 3 (Introduction to React)",
+        "description": "Step into modern web development with React. Learn component-based architecture, state management, and hooks to build dynamic single-page applications.",
+        "lessons": [
+          {
+            "name": "React Fundamentals and Components",
+            "description": "Start your React journey by understanding the core concepts: components, JSX, props, and component composition. Build your first React applications.",
+            "duration": "00:46:00",
+            "chapters": [
+              {
+                "name": "Section 1. Getting Started with React",
+                "duration": "00:20:00",
+                "videos": [
+                  {
+                    "name": "What is React and Why Use It?",
+                    "duration": "00:08:00",
+                    "video_url": "videos/020-what-is-react.webm",
+                    "subtitle_url": "videos/020-what-is-react.srt",
+                    "additional_materials": []
+                  },
+                  {
+                    "name": "Setting Up Your React Development Environment",
+                    "duration": "00:12:00",
+                    "video_url": "videos/021-react-setup.webm",
+                    "subtitle_url": "videos/021-react-setup.srt",
+                    "additional_materials": [
+                      {
+                        "name": "React Setup Guide",
+                        "description": "Step-by-step installation instructions",
+                        "url": "additional/react-setup-guide.pdf",
+                        "type": "pdf"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Section 2. Components and JSX",
+                "duration": "00:26:00",
+                "videos": [
+                  {
+                    "name": "Understanding JSX Syntax",
+                    "duration": "00:09:00",
+                    "video_url": "videos/022-jsx-syntax.webm",
+                    "subtitle_url": "videos/022-jsx-syntax.srt",
+                    "additional_materials": []
+                  },
+                  {
+                    "name": "Creating Functional Components",
+                    "duration": "00:10:00",
+                    "video_url": "videos/023-functional-components.webm",
+                    "subtitle_url": "videos/023-functional-components.srt",
+                    "additional_materials": []
+                  },
+                  {
+                    "name": "Props and Component Composition",
+                    "duration": "00:07:00",
+                    "video_url": "videos/024-props.webm",
+                    "subtitle_url": "videos/024-props.srt",
+                    "additional_materials": [
+                      {
+                        "name": "Component Patterns",
+                        "description": "Common React patterns and best practices",
+                        "url": "additional/component-patterns.png",
+                        "type": "image"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "State Management and React Hooks",
+            "description": "Master React state management using hooks. Learn useState, useEffect, and other essential hooks to create dynamic, interactive components.",
+            "duration": "00:52:30",
+            "chapters": [
+              {
+                "name": "Section 1. Introduction to Hooks",
+                "duration": "00:24:00",
+                "videos": [
+                  {
+                    "name": "What Are React Hooks?",
+                    "duration": "00:07:00",
+                    "video_url": "videos/025-intro-to-hooks.webm",
+                    "subtitle_url": "videos/025-intro-to-hooks.srt",
+                    "additional_materials": []
+                  },
+                  {
+                    "name": "useState: Managing Component State",
+                    "duration": "00:17:00",
+                    "video_url": "videos/026-usestate.webm",
+                    "subtitle_url": "videos/026-usestate.srt",
+                    "additional_materials": [
+                      {
+                        "name": "useState Examples",
+                        "description": "Common state management patterns",
+                        "url": "additional/usestate-examples.jsx",
+                        "type": "code"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Section 2. Side Effects and Advanced Hooks",
+                "duration": "00:28:30",
+                "videos": [
+                  {
+                    "name": "useEffect: Handling Side Effects",
+                    "duration": "00:18:00",
+                    "video_url": "videos/027-useeffect.webm",
+                    "subtitle_url": "videos/027-useeffect.srt",
+                    "additional_materials": []
+                  },
+                  {
+                    "name": "Custom Hooks and useContext",
+                    "duration": "00:10:30",
+                    "video_url": "videos/028-custom-hooks.webm",
+                    "subtitle_url": "videos/028-custom-hooks.srt",
+                    "additional_materials": [
+                      {
+                        "name": "Custom Hooks Library",
+                        "description": "Reusable custom hooks collection",
+                        "url": "additional/custom-hooks-library.js",
+                        "type": "code"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "webinars": [
+          {
+            "name": "Week 3 React Project Workshop",
+            "description": "Build a complete React application together, implementing everything learned in week 3. Includes component architecture planning and state management strategies.",
+            "duration": "01:45:00",
+            "video_url": "webinars/week3-react-workshop.webm",
+            "subtitle_url": "webinars/week3-react-workshop.srt",
+            "additional_materials": [
+              {
+                "name": "Workshop Starter Code",
+                "description": "Initial project setup",
+                "url": "additional/week3-starter.zip",
+                "type": "archive"
+              },
+              {
+                "name": "Workshop Slides",
+                "description": "Presentation materials",
+                "url": "additional/week3-slides.pdf",
+                "type": "pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
